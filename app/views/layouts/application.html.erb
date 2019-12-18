@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<%# yield= 各ページのprovideを参照, app.html.erbの記述はhome, about, helpに記述される %>
+    <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
+    <!-- yield(:title)= Home, | Ruby on Rails Tutorial Sample App = app.html.erbを参照(各ページへ記述)　-->
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
