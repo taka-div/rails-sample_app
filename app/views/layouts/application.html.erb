@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
 <%# yield= 各ページのprovideを参照, app.html.erbの記述はhome, about, helpに記述される %>
     <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
     <!-- yield(:title)= Home, | Ruby on Rails Tutorial Sample App = app.html.erbを参照(各ページへ記述)　-->
@@ -8,6 +9,14 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+=======
+    <title>SampleApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+>>>>>>> origin/master
   </head>
 
   <body>

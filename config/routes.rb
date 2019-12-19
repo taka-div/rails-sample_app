@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+<<<<<<< HEAD
 # 1. get=if has request URL 
 # 2. get controller home action
 # 3. then add home=home.html.erb to view
@@ -16,3 +17,7 @@ end
 # 1. make URL from routes.rb
 # 2. make action from controller
 # 3. make html.erb
+=======
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+end
+>>>>>>> origin/master

@@ -22,4 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+<<<<<<< HEAD
+# sample_app
+=======
+>>>>>>> origin/master
 # sample_app
